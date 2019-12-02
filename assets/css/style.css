@@ -15,6 +15,32 @@
   src: url(../font/OpenSans-Light.ttf) format("truetype");
   font-weight: 300;
   }
+  /*style de soulignement*/
+#title-portfolio{
+  padding:5% 0 0 0;
+}
+#exemple{
+  padding:0 0 3% 0;
+}
+  .border-wrap{
+    background: linear-gradient(to right, white, rgba(62, 62, 62, 1));
+    padding:0.1rem;
+    width:150px;
+    }
+    .soulign-metier{
+    background: rgba(62, 62, 62, 1);
+    
+    }
+    .border-wrap-r{
+      background: linear-gradient(to right,rgb(226, 97, 97), white );
+      padding:0.1rem;
+      width:150px;
+      }
+      .soulign-metier-r{
+        background:  rgb(226, 97, 97);
+      
+     
+      }
 
   h3 {
     padding: 5%;
@@ -220,12 +246,15 @@
   padding:5px 5px;
 }
 .gallerie{
-  padding-bottom:70px;
+  padding-bottom:60px;
+  padding-top:2%;
+
 }
 .text-portfolio{
 
   color:black;
   text-transform:uppercase;
+
 }
 /*style temoignage*/
 .temoign-title{
@@ -243,16 +272,29 @@
 
 .bloc-titreimg {
   
-  padding-bottom:10%;
+  padding-bottom:8%;
+ 
+ 
   }
 
   .titre-temoign{
     color:#fff;
   text-transform:uppercase;
-  text-decoration-line:underline;
   margin-left:auto;
   margin-right:auto;
-float:left;
+  float:left;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    color:#fff;
+    font-size:25px;
+    font-family: "OpenSans; SemiBold";
+  
+  
   }
   /* image quote container temoignage*/
 .quote{
@@ -285,30 +327,39 @@ padding:2%;
 /* contact */
 #contact{
 background-color:#a00323;
-height:500px;
+height:600px;
 
 
 }
 .titre-contact{
 color:#fff;
 text-transform:uppercase;
-text-decoration:underline;
-padding-bottom:3%;
-padding-top:3%
+float:left;
+padding-top:3%;
+
+
+
+}
+.text-center{
+  padding-top:10%;
 }
 
 .center-formulaire{
   text-align:center;
   
 }
+
 input{
-  border:0;
+
+border:0;
   border-bottom:1px solid #fff;
   background-color:#a00323;
   color:#fff;
+ 
 }
 #email{
-  width: 80%;
+  width: 94%;
+  
 }
 label{
   float:left;
@@ -317,11 +368,15 @@ label{
   background-color:#a00323;
   width:100%;
 padding-bottom:100px;
+color:#fff;
 }
 .bouton{
   background-color:#fff;
   color:#a00323;
-  margin-top:3%;
+  margin-top:1%;
+  width:150px;
+  margin-bottom:70px;;
+  margin-top:22px;
  
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
