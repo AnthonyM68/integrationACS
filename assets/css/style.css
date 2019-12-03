@@ -10,37 +10,7 @@
   font-family: "OpenSans";
   src: url(../font/OpenSans-Light.ttf) format("truetype");
   font-weight: 300;
-<<<<<<< HEAD
 }
-=======
-  }
-  /*style de soulignement*/
-#title-portfolio{
-  padding:5% 0 0 0;
-}
-#exemple{
-  padding:0 0 3% 0;
-}
-  .border-wrap{
-    background: linear-gradient(to right, white, rgba(62, 62, 62, 1));
-    padding:0.1rem;
-    width:150px;
-    }
-    .soulign-metier{
-    background: rgba(62, 62, 62, 1);
-    
-    }
-    .border-wrap-r{
-      background: linear-gradient(to right,rgb(226, 97, 97), white );
-      padding:0.1rem;
-      width:150px;
-      }
-      .soulign-metier-r{
-        background:  rgb(226, 97, 97);
-      
-     
-      }
->>>>>>> deac1dc2adc209ffeb7d1a9ae46dba2a60fcea9e
 
 h3 {
   padding: 5%;
@@ -54,6 +24,9 @@ h3 {
   clear: both;
 }
 
+button.navbar-toggler{
+ border-color:#fff;
+}
 .bg-header {
   background: url(../img/bg-head.jpg) no-repeat;
   background-size: cover;
@@ -84,7 +57,9 @@ h3 {
   font-weight: 600;
   height: 100%;
 }
-
+.nav-link{
+  color:#fff;
+}
 .btn {
   border-radius: none;
   -webkit-border-radius: none;

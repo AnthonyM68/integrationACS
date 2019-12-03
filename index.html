@@ -21,7 +21,7 @@
         <div class="container">
           <nav class="navbar">
             <img src="./assets/img/logo.png" class="logo1">
-            <ul class="nav justify-content-end">
+            <ul  class="nav justify-content-end">
               <li class="nav-item"><a class="nav-link" href="#">ACCUEIL</a></li>
               <li class="nav-item"><a class="nav-link" href="#">LA FORMATION</a></li>
               <li class="nav-item"><a class="nav-link" href="#">ACTUALITE</a></li>
@@ -31,22 +31,67 @@
           </nav>
         </div>
       </div>
+
       <div class="container">
-        <div id="header" class="header">
-          <div class="row">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-              <h1 class="title-header">Devenez développeur web en 8 mois</h1>
-              <h2 class="title-header2">
-                Une formation qualifiante accessible sans condition de diplôme.
-              </h2>
-            </div>
+
+        <nav  class="navbar navbar-light navbar-1 navbar-dark">
+          <img src="./assets/img/logo.png" class="logo1">
+          <div id="navigation">
+          <ul   class="nav justify-content-end">
+            <li class="nav-item"><a class="nav-link" href="#">ACCUEIL</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">LA FORMATION</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">ACTUALITE</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">INSCRIPTION</a></li>
+          </ul></div>
+
+          <div id="burger"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+            aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span
+              class="navbar-toggler-icon" style="color:#fff"></span></button></div>
+          
+
+          <!-- Collapsible content -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" style="color:#fff" href="#">ACCUEIL<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color:#fff" href="#">LA FORMATION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color:#fff" href="#">ACTUALITE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color:#fff" href="#">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color:#fff" href="#">INSCRIPTION</a>
+              </li>
+            </ul>
           </div>
-          <div id="button-header" class="text-center">
-            <button type="button" class="btn active-radiant"> En savoir plus</button>
+        </nav>
+
+
+        <!--/.Navbar-->
+        <div class="container">
+          <div id="header" class="header">
+            <div class="row">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <h1 class="title-header">Devenez développeur web en 8 mois</h1>
+                <h2 class="title-header2">
+                  Une formation qualifiante accessible sans condition de diplôme.
+                </h2>
+              </div>
+            </div>
+            <div id="button-header" class="text-center">
+              <button type="button" class="btn active-radiant"> En savoir plus</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </div>
 
   </header>
@@ -533,6 +578,28 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+  <script>
+    let burger = document.getElementById('burger');
+    let navigation = document.getElementById('navigation')
+
+
+
+    window.addEventListener('resize', function(){
+      if (window.innerWidth >= 1200 ) {
+        burger.style.display = "none";
+        navigation.style.display = "inline-block";
+
+
+
+
+      } else if (window.innerWidth <= 1200) {
+        burger.style.display = "block";
+        navigation.style.display = "none";
+        
+
+      }
+    });
+  </script>
 </body>
 
 </html>
