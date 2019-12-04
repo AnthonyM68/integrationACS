@@ -619,11 +619,11 @@ footer {
 }
 
 .menu-footer {
-  float: left;
+  padding:5% 0;
 }
 
 .menu-footer li {
-  display: inline;
+  display: inline-block;
 }
 
 .menu-footer li a {
@@ -631,11 +631,11 @@ footer {
 }
 
 .reseauxsocio {
-  float: right;
+  padding:5% 0;
 }
 
 .reseauxsocio li {
-  display: inline;
+  display: inline-block;
   padding-right: 34px;
 }
 
