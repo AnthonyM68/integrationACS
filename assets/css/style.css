@@ -12,9 +12,7 @@
   font-weight: 300;
 }
 
-h3 {
-  padding: 5%;
-}
+
 
 .white {
   color: #fff;
@@ -201,6 +199,7 @@ button.navbar-toggler {
 .icon {
   display: grid;
   justify-content: center;
+
 }
 
 .padding2-img {
@@ -401,13 +400,14 @@ nav.navbar ul.nav li.nav-item a.nav-link
 }
 .img-portfolio {
   display: inline-block;
-  margin: 15px 0;
-  width: 250px;
-  height: 237px;
+  margin-right:10%;
+  margin-bottom:5%;
+ 
 }
 #exemple {
-  padding: 0;
+  margin-bottom:2%;
 }
+
 /*style portfolio*/
 .border-wrap-portfolio {
   background: linear-gradient(to right, rgb(226, 97, 97), white);
@@ -526,19 +526,35 @@ nav.navbar ul.nav li.nav-item a.nav-link
 /*contact*/
 #contact {
   background-color: #a00323;
-  height: 600px;
+  
+}
+.element-form{
+  padding-top:5%;
 }
 .titre-contact {
   color: #fff;
   text-transform: uppercase;
-  float: left;
-  padding-top: 3%;
+ 
+  padding: 5% 0 5% 0;
 }
+.border-wrap-contact{
+  background: linear-gradient(to right,rgb(226, 97, 97), white );
+  padding:0.1rem;
+  width:80px;
+  }
+  .soulign-metier-contact{
+    background:  rgb(226, 97, 97);
+  
+ 
+  }
+
 .text-center {
-  padding-top: 5%;
+ 
+  margin-bottom:5%;
 }
 .center-formulaire {
   text-align: center;
+
 }
 input {
   border: 0;
