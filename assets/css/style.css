@@ -29,10 +29,14 @@ button.navbar-toggler {
 }
 
 .bg-header {
-  background: url(../img/bg-head.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-size: 100% 100%;
+
+
+  background-image: url('../img/bg-head.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+
+
+
 }
 .logo-access {
   width: 180px;
@@ -42,6 +46,11 @@ button.navbar-toggler {
   background: rgba(5, 5, 5, 0.44);
   border-bottom: 2px solid rgba(252, 250, 250, 0.3);
 }
+
+
+
+
+
 
 .nav {
   margin: 0;
@@ -101,9 +110,10 @@ button.navbar-toggler {
 #formation {
   font-family: "OpenSans";
   font-weight: 300;
+  padding:3%;
 }
 #title-formation {
-  padding: 3% 0 0 0;
+  padding: 0;
 }
 
 .border-wrap-formation {
@@ -120,7 +130,12 @@ button.navbar-toggler {
 
 #p-left {
   font-size: 0.8em;
-  padding: 5.5% 1% 0 0;
+
+}
+@media (min-width: 1200px) {
+  #p-left {
+    text-align:right;
+  }
 }
 #p-right {
   padding: 7% 0 0 4%;
@@ -128,25 +143,35 @@ button.navbar-toggler {
 #p-right-down {
   padding: 0 0 0 0;
 }
+
+
+#p-down{
+  margin-left:-20px;
+}
 .liste1 ul {
   list-style-position: outside;
 }
 .liste1 li {
-  line-height: 0.5em;
-  padding-bottom: 0.2em;
-  font-size: 1.6em;
-}
-.liste1 li a {
-  font-size: 0.5em;
-  margin-bottom: 0.2em;
   color: initial;
+  font-size: 1em;
+  margin-bottom: -5px;
+  color: red;
+ 
+  
+}
+.liste1 li i{
+  font-size: 0.8em;
+  color: initial;
+  font-style: normal;
+
+  
 }
 #p-right-down ul li {
   padding: 0;
 
 }
 #p-right-down ul li a {
-  color: initial;
+  
 }
 .bg-enseign {
   background: url(../img/bg-enseign.jpg) no-repeat;
@@ -164,8 +189,11 @@ button.navbar-toggler {
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
 }
+#enseignement{
+  padding:3%;
+}
 #title-enseign {
-  padding: 3% 0 0 0;
+  padding: 0;
 }
 .soulign-enseign {
   background: #fff;
@@ -176,7 +204,7 @@ button.navbar-toggler {
 }
 
 .padding2-img {
-  padding-top: 13%;
+  padding-top: 20px;
 }
 
 #metier {
@@ -276,6 +304,94 @@ ul li {
 #title-pro {
   font-size: 2.2em;
 }
+
+
+
+.nav-link a
+{
+  color:white;
+
+}
+
+.nav-item a
+{
+  color:white;
+}
+
+nav ul
+{
+  color:white;
+}
+
+
+
+nav.navbar ul.nav li.nav-item
+{
+
+}
+
+nav.navbar ul.nav li.nav-item a.nav-link
+{
+  color:white;
+}
+
+
+
+#navigation-nav
+{
+
+  padding:0;
+  margin:0;
+
+
+
+}
+
+
+@media (max-width: 1200px) 
+{
+  nav ul
+  {
+    background:black;
+  }
+
+  nav.navbar ul.nav li.nav-item a.nav-link
+  {
+    padding:10px;
+  }
+
+
+  #navbarNav
+  {
+  
+  position:absolute;
+  width:100%;
+  top:80px;
+  left:0;
+  z-index:2;
+  
+  
+  }
+
+
+
+}
+
+
+
+
+
+
+@media (min-width: 1200px) 
+{
+  nav ul li
+  {
+    padding:0 10px;
+  }
+
+  
+}
+
 
 
 
