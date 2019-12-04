@@ -12,8 +12,6 @@
   font-weight: 300;
 }
 
-
-
 .white {
   color: #fff;
 }
@@ -27,15 +25,11 @@ button.navbar-toggler {
 }
 
 .bg-header {
-
-
   background-image: url('../img/bg-head.jpg');
-  background-size:cover;
-  background-repeat:no-repeat;
-
-
-
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
 .logo-access {
   width: 180px;
 }
@@ -44,11 +38,6 @@ button.navbar-toggler {
   background: rgba(5, 5, 5, 0.44);
   border-bottom: 2px solid rgba(252, 250, 250, 0.3);
 }
-
-
-
-
-
 
 .nav {
   margin: 0;
@@ -64,6 +53,7 @@ button.navbar-toggler {
   font-weight: 600;
   height: 100%;
 }
+
 #btn-header {
   border-radius: 0;
   background-color: rgba(211, 31, 68, 89);
@@ -74,23 +64,29 @@ button.navbar-toggler {
   -o-border-radius: 0;
   padding: 10px 45px;
 }
+
 .active {
   background-color: #d31f44;
 }
+
 .nav-link a {
   height: 100%;
 }
+
 .nav li a {
   padding: 28px;
 }
+
 .header {
   padding: 22% 0;
   text-align: center;
 }
+
 .title-header {
   color: #fff;
   font-size: 3em;
 }
+
 .title-header2 {
   font-family: "OpenSans";
   font-weight: 300;
@@ -101,15 +97,18 @@ button.navbar-toggler {
   padding: 5px;
   font-weight: 200px;
 }
+
 .title-section {
   text-align: center;
   padding: 6%;
 }
+
 #formation {
   font-family: "OpenSans";
   font-weight: 300;
-  padding:3%;
+  padding: 3%;
 }
+
 #title-formation {
   padding: 0;
 }
@@ -128,55 +127,56 @@ button.navbar-toggler {
 
 #p-left {
   font-size: 0.8em;
-
 }
+
 @media (min-width: 1200px) {
   #p-left {
-    text-align:right;
+    text-align: right;
   }
 }
+
 #p-right {
   padding: 7% 0 0 4%;
 }
+
 #p-right-down {
   padding: 0 0 0 0;
 }
 
-
-#p-down{
-  margin-left:-20px;
+#p-down {
+  margin-left: -20px;
 }
+
 .liste1 ul {
   list-style-position: outside;
 }
+
 .liste1 li {
   color: initial;
   font-size: 1em;
   margin-bottom: -5px;
   color: red;
- 
-  
 }
-.liste1 li i{
+
+.liste1 li i {
   font-size: 0.8em;
   color: initial;
   font-style: normal;
-
-  
 }
+
 #p-right-down ul li {
   padding: 0;
+}
 
-}
-#p-right-down ul li a {
-  
-}
+#p-right-down ul li a {}
+
 .bg-enseign {
   background: url(../img/bg-enseign.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-size: 100% 100%;
 }
+
 .border-wrap-enseign {
   background: linear-gradient(90deg, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0.006039915966386533) 100%);
   padding: 0.09rem;
@@ -187,19 +187,22 @@ button.navbar-toggler {
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
 }
-#enseignement{
-  padding:3%;
+
+#enseignement {
+  padding: 3%;
 }
+
 #title-enseign {
   padding: 0;
 }
+
 .soulign-enseign {
   background: #fff;
 }
+
 .icon {
   display: grid;
   justify-content: center;
-
 }
 
 .padding2-img {
@@ -211,6 +214,7 @@ button.navbar-toggler {
   font-weight: 300;
   background: rgba(62, 62, 62, 1);
 }
+
 .title-metier {
   padding: 3% 0 3% 0;
 }
@@ -220,6 +224,7 @@ button.navbar-toggler {
   padding: 0.09rem;
   width: 150px;
 }
+
 .soulign-metier {
   background: rgba(62, 62, 62, 1);
 }
@@ -227,7 +232,6 @@ button.navbar-toggler {
 .paragraph-metier {
   padding: 5% 3% 0 0%;
   font-size: 0.8rem;
-
 }
 
 .paragraph2-metier {
@@ -247,6 +251,7 @@ button.navbar-toggler {
   -o-border-radius: 0;
   background-color: transparent
 }
+
 #projet {
   font-family: "OpenSans";
   font-weight: 300;
@@ -261,20 +266,25 @@ button.navbar-toggler {
 #title-project {
   padding: 0 0 0 4%;
 }
+
 .container-wrap-projet {
   padding: 0 0 0 4%;
 }
+
 .border-wrap-projet {
   background: linear-gradient(to right, #a00323, #fff);
   padding: 0.09rem;
   width: 150px;
 }
+
 .soulign-projet {
   background: rgba(62, 62, 62, 1);
 }
+
 .title-h5-project {
   padding: 4%;
 }
+
 .paragraph_project {
   font-size: 0.9em;
   padding-top: 1%;
@@ -292,6 +302,7 @@ ul li {
 .paragraph_project a:link {
   text-decoration: none;
 }
+
 #header-portfolio {
   font-family: "OpenSans";
   font-weight: 300;
@@ -300,135 +311,100 @@ ul li {
   background-position: center;
   background-size: 100% 100%;
 }
+
 #title-pro {
   font-size: 2.2em;
 }
 
-
-
-.nav-link a
-{
-  color:white;
-
+.nav-link a {
+  color: white;
 }
 
-.nav-item a
-{
-  color:white;
+.nav-item a {
+  color: white;
 }
 
-nav ul
-{
-  color:white;
+nav ul {
+  color: white;
 }
 
+nav.navbar ul.nav li.nav-item {}
 
-
-nav.navbar ul.nav li.nav-item
-{
-
+nav.navbar ul.nav li.nav-item a.nav-link {
+  color: white;
 }
 
-nav.navbar ul.nav li.nav-item a.nav-link
-{
-  color:white;
+#navigation-nav {
+  padding: 0;
+  margin: 0;
 }
 
-
-
-#navigation-nav
-{
-
-  padding:0;
-  margin:0;
-
-
-
-}
-
-
-@media (max-width: 1200px) 
-{
-  nav ul
-  {
-    background:black;
+@media (max-width: 1200px) {
+  nav ul {
+    background: black;
   }
-
-  nav.navbar ul.nav li.nav-item a.nav-link
-  {
-    padding:10px;
+  nav.navbar ul.nav li.nav-item a.nav-link {
+    padding: 10px;
   }
-
-
-  #navbarNav
-  {
-  
-  position:absolute;
-  width:100%;
-  top:80px;
-  left:0;
-  z-index:2;
-  
-  
+  #navbarNav {
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    left: 0;
+    z-index: 2;
   }
-
-
-
 }
 
-
-
-
-
-
-@media (min-width: 1200px) 
-{
-  nav ul li
-  {
-    padding:0 10px;
+@media (min-width: 1200px) {
+  nav ul li {
+    padding: 0 10px;
   }
-
-  
 }
-
-
-
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
 #title-portfolio {
   padding: 5% 0 0 0;
 }
+
 .img-portfolio {
   display: inline-block;
-  margin-right:10%;
-  margin-bottom:5%;
- 
+  margin-right: 10%;
+  margin-bottom: 5%;
 }
+
 #exemple {
-  margin-bottom:2%;
+  margin-bottom: 2%;
 }
 
 /*style portfolio*/
+
 .border-wrap-portfolio {
   background: linear-gradient(to right, rgb(226, 97, 97), white);
   padding: 0.1rem;
   width: 150px;
 }
+
 .soulign-portfolio {
   background: rgb(226, 97, 97);
 }
 
 /* Conteneur principal */
+
 .overlay-image {
   position: relative;
   width: 100%;
 }
+
 /* Image originale */
+
 .overlay-image .image {
   display: block;
   height: auto;
 }
+
 /* Texte original */
+
 .overlay-image .text {
   color: #fff;
   font-size: 30px;
@@ -454,6 +430,7 @@ nav.navbar ul.nav li.nav-item a.nav-link
   opacity: 0;
   transition: .5s ease;
 }
+
 /* Apparition overlay sur passage souris */
 
 .overlay-image:hover .hover {
@@ -461,6 +438,7 @@ nav.navbar ul.nav li.nav-item a.nav-link
 }
 
 /********* Hover background et texte uniquement *******/
+
 .centered {
   position: absolute;
   top: 50%;
@@ -471,6 +449,7 @@ nav.navbar ul.nav li.nav-item a.nav-link
   font-size: 25px;
   font-family: "OpenSans; SemiBold";
 }
+
 .overlay-image .normal {
   transition: .5s ease;
 }
@@ -487,7 +466,9 @@ nav.navbar ul.nav li.nav-item a.nav-link
   color: black;
   text-transform: uppercase;
 }
+
 /*style temoignage*/
+
 .temoignage {
   padding: 6%;
   background: url("../img/bg-temoign.jpg");
@@ -495,94 +476,118 @@ nav.navbar ul.nav li.nav-item a.nav-link
   background-position: center;
   background-size: 100% 100%;
 }
+
 .bloc-titreimg {
   padding-bottom: 8%;
 }
+
 .border-wrap-temoignage {
   background: linear-gradient(to right, white, rgba(62, 62, 62, 1));
   padding: 0.1rem;
   width: 150px;
 }
+
 .soulign-temoignage {
   background: rgba(62, 62, 62, 1);
 }
+
 .titre-temoign {
   color: #fff;
   text-transform: uppercase;
   margin-left: auto;
   margin-right: auto;
   float: left;
+  font-family: "OpenSans";
+  font-weight: 300;
 }
+
 #btn-temoign {
   color: #f1f2f6;
   border: 1px solid #f1f2f6;
 }
+
 /* image quote container temoignage*/
+
 .quote {
   margin-left: auto;
   margin-right: auto;
   float: right;
 }
+
 /*contact*/
+
 #contact {
   background-color: #a00323;
-  
+  font-family: "OpenSans";
+  font-weight: 300;
 }
-.element-form{
-  padding-top:5%;
+
+.element-form {
+  padding-top: 5%;
 }
+
 .titre-contact {
   color: #fff;
   text-transform: uppercase;
- 
   padding: 5% 0 5% 0;
 }
-.border-wrap-contact{
-  background: linear-gradient(to right,rgb(226, 97, 97), white );
-  padding:0.1rem;
-  width:80px;
-  }
-  .soulign-metier-contact{
-    background:  rgb(226, 97, 97);
-  
- 
-  }
 
-.text-center {
- 
-  margin-bottom:5%;
+.border-wrap-contact {
+  background: linear-gradient(to right, rgb(226, 97, 97), white);
+  padding: 0.1rem;
+  width: 80px;
 }
-.center-formulaire {
-  text-align: center;
 
+.soulign-metier-contact {
+  background: rgb(226, 97, 97);
 }
+label{color:#fff}
+
 input {
   border: 0;
   border-bottom: 1px solid #fff;
   background-color: #a00323;
   color: #fff;
+  width: 100%;
+
 }
-#email {
-  width: 94%;
+.input-pad{
+  padding:5% 0 5% 0;
 }
-label {
-  float: left;
+.input-pad-mail{
+  padding:2% 0 2% 0;
 }
+#paragraph-contact{
+  color:#fff;
+  padding:10% 0 0 10%;
+  font-size:0.9em;
+}
+@media (max-width: 768px) {
+  #paragraph-contact{
+    padding:0;
+  }
+}
+@media (max-width: 640px) {
+  #paragraph-contact{
+    padding:0;
+  }
+}
+
 .area-text {
   background-color: #a00323;
   width: 100%;
   padding-bottom: 100px;
   color: #fff;
 }
-.bouton {
+#btn-contact {
   background-color: #fff;
   color: #a00323;
   margin-top: 1%;
   width: 150px;
   margin-bottom: 70px;
-  ;
   margin-top: 22px;
 }
+
 
 ::placeholder {
   color: white;
@@ -590,9 +595,12 @@ label {
 }
 
 /*partenaires*/
+
 #partenary {
   padding: 2%;
+  color:#fff;
 }
+
 .logo {
   padding-top: 15%;
 }
@@ -600,34 +608,43 @@ label {
 .logo2 {
   padding-left: 25%;
 }
+
 /* contact */
+
 footer {
   background-color: #3e3e3e;
   margin: 0;
   padding: 0;
   height: 155px;
 }
+
 .menu-footer {
   float: left;
 }
+
 .menu-footer li {
   display: inline;
 }
+
 .menu-footer li a {
   color: #fff;
 }
+
 .reseauxsocio {
   float: right;
 }
+
 .reseauxsocio li {
   display: inline;
   padding-right: 34px;
 }
+
 .nav-footer {
   padding: 5%;
 }
 
 /*/////////////////////////////////////////////////////MEDIA RESPONSIVE//////////////////////////////*/
+
 @media (max-width: 1366px) {}
 
 @media (max-width: 1280px) {
